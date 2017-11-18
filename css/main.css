@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  border: 0;
+}
+
+header {
+  background-color: #58ACFA;
+}
+
+header h1 {
+  color: #FFF;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+}
