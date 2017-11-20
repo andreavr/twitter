@@ -5,15 +5,18 @@
 }
 
 body {
+  background-image: url(../assets/images/wallpaper.jpg);
 }
 
 header {
   background-color: #58ACFA;
+  z-index: 1000;
 }
 
 header h1 {
   color: #FFF;
   text-align: center;
-  font-size: 55px;
+  font-size: 50px;
   margin: 0px;
+  padding: 5px;
 }
