@@ -9,14 +9,95 @@ body {
 }
 
 header {
-  background-color: #58ACFA;
+  background: #58ACFA;
+  color: #FFF;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
   z-index: 1000;
 }
 
-header h1 {
-  color: #FFF;
+section {
   text-align: center;
-  font-size: 50px;
-  margin: 0px;
-  padding: 5px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#container {
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+
+.box {
+  background-color: #FFF;
+  width: 600px;
+  margin: 0 4px;
+  margin-bottom: 50px;
+  border-radius: 2px;
+}
+
+#profile {
+  float: left;
+  text-align: justify;
+  padding: 20px;
+  margin-right: 30px;
+}
+
+#profile h2 {
+  margin-bottom: 10px;
+}
+
+#profile hr {
+  margin: 20px 0;
+}
+
+#tweet {
+  padding: 15px;
+  text-align: justify;
+  float: left;
+}
+
+textarea {
+  display: inline-block;
+  width: 100%;
+  resize: none;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid #EEE;
+  overflow-y: hidden;
+}
+
+textarea:focus {
+  outline: none;
+  border-bottom: 2px solid skyblue;
+}
+
+button {
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+}
+
+.counter {
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 0 5px;
+  float: right;
+  color: #909497;
+  font-weight: 700;
+}
+
+
+.tweet {
+  background: #FFF;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  text-align: justify;
+  width: 810px;
 }
